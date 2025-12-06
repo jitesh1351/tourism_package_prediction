@@ -29,10 +29,10 @@ number_of_person_visiting = st.number_input("Number Of Person Visiting", min_val
 number_of_follow_ups = st.number_input("Number Of Follow Ups", min_value=1.0, max_value=6.0, value=3.0, step=1.0)
 preferred_property_star = st.number_input("Preferred Property Star", min_value=3.0, max_value=5.0, value=3.0, step=1.0)
 number_of_trips = st.number_input("Number Of Trips", min_value=1.0, max_value=25.0, value=5.0, step=1.0)
-passport = st.number_input("Passport", min_value=0, max_value=1.0, value=1.0)
+passport = st.number_input("Passport", min_value=0.0, max_value=1.0, value=1.0)
 pitch_satisfaction_score = st.number_input("Pitch Satisfaction Score", min_value=1.0, max_value=5.0, value=3.0, step=1.0)
-own_car = st.number_input("Own Car", min_value=0, max_value=1.0, value=1.0)
-number_of_children_visiting	= st.number_input("Number Of Children Visiting", min_value=0, max_value=5.0, value=2.0)
+own_car = st.number_input("Own Car", min_value=0.0, max_value=1.0, value=1.0)
+number_of_children_visiting	= st.number_input("Number Of Children Visiting", min_value=0.0, max_value=5.0, value=2.0)
 monthly_income = st.number_input("Monthly Income", min_value=1000.0,max_value=100000.0, value=20000.0)
 
 # Assemble input into DataFrame
