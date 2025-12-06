@@ -37,24 +37,24 @@ monthly_income = st.number_input("Monthly Income", min_value=1000.0,max_value=10
 
 # Assemble input into DataFrame
 input_data = pd.DataFrame([{
-    'type_of_contact': type_of_contact,
-    'occupation': occupation,
-    'gender': gender,
-    'product_pitched': product_pitched,
-    'marital_status': marital_status,
-    'designation': designation,
-    'age_in_year': age,
-    'city_tier': city_tier,
-    'duration_of_pitch': duration_of_pitch,
-    'number_of_person_visiting': number_of_person_visiting,
-    'number_of_follow_ups': number_of_follow_ups,
-    'preferred_property_star': preferred_property_star,
-    'number_of_trips': number_of_trips,
-    'passport': passport,
-    'pitch_satisfaction_score': pitch_satisfaction_score,
-    'own_car':own_car,
-    'number_of_children_visiting': number_of_children_visiting,
-    'monthly_income': monthly_income
+    'TypeofContact': type_of_contact,
+    'Occupation': occupation,
+    'Gender': gender,
+    'ProductPitched': product_pitched,
+    'MaritalStatus': marital_status,
+    'Designation': designation,
+    'Age': age,
+    'CityTier': city_tier,
+    'DurationOfPitch': duration_of_pitch,
+    'NumberOfPersonVisiting': number_of_person_visiting,
+    'NumberOfFollowups': number_of_follow_ups,
+    'PreferredPropertyStar': preferred_property_star,
+    'NumberOfTrips': number_of_trips,
+    'Passport': passport,
+    'PitchSatisfactionScore': pitch_satisfaction_score,
+    'OwnCar':own_car,
+    'NumberOfChildrenVisiting': number_of_children_visiting,
+    'MonthlyIncome': monthly_income
 }])
 
 # Predict button
